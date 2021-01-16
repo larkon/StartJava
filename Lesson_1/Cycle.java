@@ -2,11 +2,6 @@
 
 public class Cycle {   
     public static void main(String[] args) {
-        //Входные данные ----------------------------------------------
-        byte age = 28 ; // возраст
-        char gender = 'F' ; // пол
-        double height = 1.94 ; // рост
-        String name = "Margo" ; // имя
 
         //Выведите на консоль с помощью цикла for все числа от [0, 20]
         System.out.println("Выведите на консоль с помощью цикла for все числа от [0, 20]:");
