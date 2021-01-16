@@ -1,5 +1,6 @@
 public class Variable {   
     public static void main(String[] args) {
+        String CpuName = " Intel Core i7-3770 K";
         int Cpu = 3770;
         char CpuIndex = 'K';
         byte CpuCores = 4;
@@ -9,7 +10,8 @@ public class Variable {
         double CPUmarkPrice= 36.35;
         boolean PCisWorking = true;
 
-        System.out.println("CPU: " + Cpu);
+        System.out.println("CPU Name: " + CpuName);
+        System.out.println("CPU Nomber: " + Cpu);
         System.out.println("CPU Index: " + CpuIndex);
         System.out.println("CPU Cores: " + CpuCores);
         System.out.println("CPU Threads: " + CpuThreads);
