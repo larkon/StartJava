@@ -6,8 +6,8 @@ public class Calculator {
         char operation;
 
         //Арифметическое выражение
-        nomberOne = 16;
-        nomberTow = 2;
+        nomberOne = 3;
+        nomberTow = 3;
         operation = '^';
 
         //Калькулятор
@@ -18,7 +18,7 @@ public class Calculator {
         if (operation == ('%')) {System.out.println(nomberOne % nomberTow);} else
         if (operation == ('^')) {
             int result = 1;
-            for (int i=1; i<=nomberTow; i++) {
+            for (int i=0; i<nomberTow; i++) {
                 result = result * nomberOne;
                 //System.out.println(result);
             };
