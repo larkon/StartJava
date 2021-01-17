@@ -4,12 +4,10 @@ public class Calculator {
         int nomberOne;
         int nomberTow;
         char operation;
-
         //Арифметическое выражение
         nomberOne = 3;
         nomberTow = 3;
         operation = '^';
-
         //Калькулятор
         if (operation == ('+')) {System.out.println(nomberOne + nomberTow);} else
         if (operation == ('-')) {System.out.println(nomberOne - nomberTow);} else
@@ -25,6 +23,5 @@ public class Calculator {
             System.out.println(result);
         } else
         {System.out.println("операция не определена");}
-
     }
 }
