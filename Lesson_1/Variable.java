@@ -1,23 +1,21 @@
 public class Variable {   
     public static void main(String[] args) {
-        String CpuName = " Intel Core i7-3770 K";
-        int CpuNomber = 3770;
-        char CpuIndex = 'K';
-        byte CpuCores = 4;
-        short CpuThreads = 8;
-        long AverageCpuMark = 6362;
-        float CpuTurboSpeed = 3.9f;
-        double CPUmarkPrice= 36.35;
-        boolean PCisWorking = true;
+        int cpuNomber = 3770;
+        char cpuIndex = 'K';
+        byte cpuCores = 4;
+        short cpuThreads = 8;
+        long averageCpuMark = 6362;
+        float cpuTurboSpeed = 3.9f;
+        double cpuMarkPrice = 36.35;
+        boolean pcIsWorking = true;
 
-        System.out.println("CPU Name: " + CpuName);
-        System.out.println("CPU Nomber: " + CpuNomber);
-        System.out.println("CPU Index: " + CpuIndex);
-        System.out.println("CPU Cores: " + CpuCores);
-        System.out.println("CPU Threads: " + CpuThreads);
-        System.out.println("CPU AverageCpuMark: " + AverageCpuMark);
-        System.out.println("CPU TurboSpeed: " + CpuTurboSpeed);
-        System.out.println("CPU Mark Price: " + CPUmarkPrice);
-        System.out.println("PC is Working: " + PCisWorking);
+        System.out.println("CPU Nomber: " + cpuNomber);
+        System.out.println("CPU Index: " + cpuIndex);
+        System.out.println("CPU Cores: " + cpuCores);
+        System.out.println("CPU Threads: " + cpuThreads);
+        System.out.println("CPU AverageCpuMark: " + averageCpuMark);
+        System.out.println("CPU TurboSpeed: " + cpuTurboSpeed);
+        System.out.println("CPU Mark Price: " + cpuMarkPrice);
+        System.out.println("PC is Working: " + pcIsWorking);
     }
 }
