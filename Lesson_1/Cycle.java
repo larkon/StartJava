@@ -5,22 +5,23 @@ public class Cycle {
         for (int i = 0; i <= 20; i++) {
             System.out.println(i);
         };
+
         //Выведите на консоль с помощью цикла while все числа от [6, -6] (с шагом итерации 2)
         System.out.println("Выведите на консоль с помощью цикла while все числа от [6, -6] (с шагом итерации 2):");
         int x = 6;
         while (x >= -6) {
             System.out.println(x);
-            x-=2;
-        };
+            x -= 2;
+        }
+
         //Подсчитайте с помощью цикла do-while сумму нечетных чисел от [10, 20]. Выведите ее на консоль
         System.out.println("Подсчитайте с помощью цикла do-while сумму нечетных чисел от [10, 20]. Выведите ее на консоль:");
         int y = 10;
         int sum = 0;
         do {
-            if (y%2!= 0) {
-                sum = sum + y;
-                //System.out.println(y);
-            };
+            if (y % 2 != 0) {
+                sum += y;
+            }
             y++;
         }
         while (y <= 20);

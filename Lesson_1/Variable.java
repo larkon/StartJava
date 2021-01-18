@@ -8,6 +8,7 @@ public class Variable {
         float cpuTurboSpeed = 3.9f;
         double cpuMarkPrice = 36.35;
         boolean pcIsWorking = true;
+        
         System.out.println("CPU Nomber: " + cpuNomber);
         System.out.println("CPU Index: " + cpuIndex);
         System.out.println("CPU Cores: " + cpuCores);
