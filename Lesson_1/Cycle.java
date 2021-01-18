@@ -4,7 +4,7 @@ public class Cycle {
         System.out.println("Выведите на консоль с помощью цикла for все числа от [0, 20]:");
         for (int i = 0; i <= 20; i++) {
             System.out.println(i);
-        };
+        }
 
         //Выведите на консоль с помощью цикла while все числа от [6, -6] (с шагом итерации 2)
         System.out.println("Выведите на консоль с помощью цикла while все числа от [6, -6] (с шагом итерации 2):");
@@ -23,8 +23,7 @@ public class Cycle {
                 sum += y;
             }
             y++;
-        }
-        while (y <= 20);
+        } while (y <= 20);
         System.out.println("Сумма нечетных чисел на интервале [10, 20]: " + sum);
     }
 }

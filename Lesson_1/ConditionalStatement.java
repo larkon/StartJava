@@ -22,11 +22,10 @@ public class ConditionalStatement {
         } else System.out.println("Рост: Выше 1.80");
 
         //Первая буква имени--------------------------------------
-        String name = "Мargo" ; 
-        if (name.charAt(0) == 'M') {
+        String firstNameLetter = "Мargo".charAt(0) ;
+        if (firstNameLetter == 'M') {
             System.out.println("Начинается c \'M\'");
-        } 
-        else if (name.charAt(0) == 'I') {
+        } else if (firstNameLetter == 'I') {
             System.out.println("Начинается c \'I\'");
         } else {
             System.out.println("Начальная букава имени не определена");
