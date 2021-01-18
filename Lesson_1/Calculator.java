@@ -20,7 +20,8 @@ public class Calculator {
                 result = result * nomberOne;
             }
             System.out.println(result);
-        } else {System.out.println("операция не определена");
+        } else {
+            System.out.println("операция не определена");
     }
     }
 }
