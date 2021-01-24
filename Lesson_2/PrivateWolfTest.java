@@ -7,7 +7,7 @@ public class  PrivateWolfTest {
         System.out.println("Пол волка: " + wolfOne.getWolfGender());
 
         if (wolfOne.getWolfAge() > 8) {
-            System.out.println("Некорректный возраст");
+            System.out.println("Не корректный возраст");
         } else System.out.println("Возраст волка: " + wolfOne.getWolfAge());
 
         System.out.println("Вес волка: " + wolfOne.getWolfWeight());
