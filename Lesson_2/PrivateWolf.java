@@ -44,9 +44,17 @@ public class  PrivateWolf {
         return false;
     }
 
-    public void hunting() {
+    public void hunt() {
         System.out.println("Волк на охоте.");
     }
 
+    public void setWolfAge(int wolfAge) {
+        if (wolfAge > 8) {
+            System.out.println("Не корректный возраст");
+        } else {
+            this.wolfAge = wolfAge;
+            System.out.println("Возраст волка: " + wolfAge);
+        }
 
+    }
 }

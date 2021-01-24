@@ -1,10 +1,10 @@
 public class  Person {
 
-    String personName = "Сергей";
-    char personGender = 'M';
-    int persomAge = 30;
-    float personHeight = 1.8f;
-    float personWeight = 89.0f;
+    String Name = "Сергей";
+    char Gender = 'M';
+    int Age = 30;
+    float Height = 1.8f;
+    float Weight = 89.0f;
 
     float sleep() {
         System.out.println("Сон 8 часов");
@@ -29,6 +29,4 @@ public class  Person {
     boolean learnJava() {
         return true;
     }
-
-
 }
