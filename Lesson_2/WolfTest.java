@@ -14,7 +14,6 @@ public class  WolfTest {
         System.out.println("Волк воет?: " + wolfOne.howl());
         wolfOne.hunting();
     }
-
     
 
 }
