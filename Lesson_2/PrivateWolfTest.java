@@ -14,7 +14,10 @@ public class  PrivateWolfTest {
         wolfOne.setColor("black");
         System.out.println("Цвет волка: " + wolfOne.getColor());
 
-        wolfOne.setAge(14);
+        wolfOne.setAge(15);
+        if (wolfOne.getAge() != 0) {
+        System.out.println("Возраст волка: " + wolfOne.getAge());
+        }
 
         System.out.println(wolfOne.runSpeed());
         System.out.println(wolfOne.walkSpeed());

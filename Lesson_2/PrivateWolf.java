@@ -24,7 +24,6 @@ public class  PrivateWolf {
             System.out.println("Не корректный возраст");
         } else {
             this.age = age;
-            System.out.println("Возраст волка: " + age);
         }
     }
 
