@@ -1,30 +1,48 @@
 public class  PrivateWolf {
+    private String name;
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+            this.name = name;
+        }
 
-    private String wolfName = "Jango";
-    private char wolfGender = 'K';
-    private int wolfAge = 10;
-    private float wolfWeight = 89.0f;
-    private String wolfColor = "black";
+    private char gender;
+    public char getGender() {
+        return gender;
+    }
+    public void setGender(char gender) {
+            this.gender = gender;
+        }
 
-    public String getWolfName() {
-        return wolfName;
+    private int age;
+    public int getAge() {
+        return age;
+    }
+    public void setAge(int age) {
+        if (age > 8) {
+            System.out.println("Не корректный возраст");
+        } else {
+            this.age = age;
+            System.out.println("Возраст волка: " + age);
+        }
     }
 
-    public char getWolfGender() {
-        return wolfGender;
+    private float weight;
+    public float getWeight() {
+        return weight;
     }
+    public void setWeight(float weight) {
+            this.weight = weight;
+        }
 
-    public int getWolfAge() {
-        return wolfAge;
+    private String color;
+    public String getColor() {
+        return color;
     }
-
-    public float getWolfWeight() {
-        return wolfWeight;
-    }
-
-    public String getWolfColor() {
-        return wolfColor;
-    }
+    public void setColor(String color) {
+            this.color = color;
+        }
 
     public float runSpeed() {
         System.out.println("Средняя скорость бега 40.0 км./ч");
@@ -47,14 +65,7 @@ public class  PrivateWolf {
     public void hunt() {
         System.out.println("Волк на охоте.");
     }
+ }
 
-    public void setWolfAge(int wolfAge) {
-        if (wolfAge > 8) {
-            System.out.println("Не корректный возраст");
-        } else {
-            this.wolfAge = wolfAge;
-            System.out.println("Возраст волка: " + wolfAge);
-        }
 
-    }
-}
+

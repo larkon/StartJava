@@ -1,10 +1,10 @@
 public class  Person {
 
-    String Name = "Сергей";
-    char Gender = 'M';
-    int Age = 30;
-    float Height = 1.8f;
-    float Weight = 89.0f;
+    String name = "Сергей";
+    char gender = 'M';
+    int age = 30;
+    float height = 1.8f;
+    float weight = 89.0f;
 
     float sleep() {
         System.out.println("Сон 8 часов");

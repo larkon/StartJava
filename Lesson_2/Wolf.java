@@ -1,10 +1,10 @@
 public class  Wolf {
 
-    String wolfName = "Jango";
-    char wolfGender = 'K';
-    int wolfAge = 10;
-    float wolfWeight = 89.0f;
-    String wolfColor = "black";
+    String name = "Jango";
+    char gender = 'K';
+    int age = 10;
+    float weight = 89.0f;
+    String color = "black";
     
     float runSpeed() {
         System.out.println("Средняя скорость бега 40.0 км./ч");
@@ -26,7 +26,6 @@ public class  Wolf {
 
     void hunt() {
         System.out.println("Волк на охоте.");
+
     }
-
-
 }
