@@ -26,6 +26,5 @@ public class Wolf {
 
     void hunt() {
         System.out.println("Волк на охоте.");
-
     }
 }
