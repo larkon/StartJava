@@ -39,7 +39,7 @@ public class PrivateWolf {
 
     public void setWeight(float weight) {
             this.weight = weight;
-        }
+    }
 
     public String getColor() {
         return color;
@@ -47,7 +47,7 @@ public class PrivateWolf {
 
     public void setColor(String color) {
             this.color = color;
-        }
+    }
 
     public float runSpeed() {
         System.out.println("Средняя скорость бега 40.0 км./ч");
