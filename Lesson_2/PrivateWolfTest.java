@@ -1,4 +1,4 @@
-public class  PrivateWolfTest {
+public class PrivateWolfTest {
     public static void main(String[] args) {
         PrivateWolf wolfOne = new PrivateWolf();
 
@@ -16,7 +16,7 @@ public class  PrivateWolfTest {
 
         wolfOne.setAge(15);
         if (wolfOne.getAge() != 0) {
-        System.out.println("Возраст волка: " + wolfOne.getAge());
+            System.out.println("Возраст волка: " + wolfOne.getAge());
         }
 
         System.out.println(wolfOne.runSpeed());

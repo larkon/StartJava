@@ -1,4 +1,4 @@
-public class  Wolf {
+public class Wolf {
 
     String name = "Jango";
     char gender = 'K';

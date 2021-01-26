@@ -1,24 +1,30 @@
-public class  PrivateWolf {
+public class PrivateWolf {
     private String name;
+    private char gender;
+    private int age;
+    private float weight;
+    private String color;
+
     public String getName() {
         return name;
     }
+
     public void setName(String name) {
             this.name = name;
         }
 
-    private char gender;
     public char getGender() {
         return gender;
     }
+
     public void setGender(char gender) {
             this.gender = gender;
         }
 
-    private int age;
     public int getAge() {
         return age;
     }
+
     public void setAge(int age) {
         if (age > 8) {
             System.out.println("Не корректный возраст");
@@ -27,18 +33,18 @@ public class  PrivateWolf {
         }
     }
 
-    private float weight;
     public float getWeight() {
         return weight;
     }
+
     public void setWeight(float weight) {
             this.weight = weight;
         }
 
-    private String color;
     public String getColor() {
         return color;
     }
+
     public void setColor(String color) {
             this.color = color;
         }
@@ -65,6 +71,3 @@ public class  PrivateWolf {
         System.out.println("Волк на охоте.");
     }
  }
-
-
-
