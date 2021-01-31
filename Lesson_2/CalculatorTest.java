@@ -27,10 +27,8 @@ public class CalculatorTest {
               System.out.print("Хотите продолжить вычисления? (yes/no): ");
 
            do {
-            userResponse = scanner.nextLine();
+              userResponse = scanner.nextLine();
            } while (!userResponse.equals("yes") && !userResponse.equals("no"));
-
-
 
         } while (userResponse.equals("yes"));
     }
