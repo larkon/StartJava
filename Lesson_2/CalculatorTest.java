@@ -2,33 +2,36 @@ import java.util.*;
 
 public class CalculatorTest {   
     public static void main(String[] args) {
-        Calculator calculatorOne = new Calculator();
+        Calculator calc = new Calculator();
 
-        Scanner readerOperation = new Scanner (System.in);
-        Scanner readerNumberOne = new Scanner (System.in);
-        Scanner readerNumberTwo = new Scanner (System.in);
-        Scanner readerMyIteration = new Scanner (System.in);
+        Scanner scanner = new Scanner(System.in);
 
-        String myIteration;
+        String userResponse;
         int numberOne;
         char operation;
         int numberTwo;
 
         do {
-        System.out.print("Введите первое число: ");
-        numberOne = readerNumberOne.nextInt();
+           System.out.print("Введите первое число: ");
+           numberOne = scanner.nextInt();
         
-        System.out.print("Введите знак математической операции: ");
-        operation = readerOperation.next().charAt(0);
+           System.out.print("Введите знак математической операции: ");
+           operation = scanner.next().charAt(0);
         
-        System.out.print("Введите второе число: ");
-        numberTwo = readerNumberTwo.nextInt();
+           System.out.print("Введите второе число: ");
+           numberTwo = scanner.nextInt();
 
-        System.out.println("Результат: " + calculatorOne.operatorDefinition(numberOne, numberTwo, operation));
+           System.out.println("Результат: " + calc.operatorDefinition(numberOne, numberTwo, operation));
 
-        System.out.print("Хотите продолжить вычисления? (yes/no): ");
-        myIteration = readerMyIteration.nextLine();
+           userResponse = "";
+              System.out.print("Хотите продолжить вычисления? (yes/no): ");
 
-         } while (myIteration.equals("yes"));
+           do {
+            userResponse = scanner.nextLine();
+           } while (!userResponse.equals("yes") && !userResponse.equals("no"));
+
+
+
+        } while (userResponse.equals("yes"));
     }
 }

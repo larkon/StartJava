@@ -21,12 +21,12 @@ public class Calculator {
                     result = 1;
                     for (int i = 0; i < numberTwo; i++) {
                         result *= numberOne;
-                        }
+                    }
                     break; 
                 default: 
                     System.out.println("операция не определена");
                     break;
-            }
-                return result;
+        }
+        return result;
      }
 }
