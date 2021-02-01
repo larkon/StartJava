@@ -1,5 +1,5 @@
 public class Calculator {
-    public static int operatorDefinition(int numberOne, int numberTwo, char operation) {
+    public static int calculate(int numberOne, int numberTwo, char operation) {
         int result = 0;
         switch (operation) {
                 case '+':
