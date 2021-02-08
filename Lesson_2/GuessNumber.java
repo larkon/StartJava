@@ -2,7 +2,9 @@ import java.util.*;
 public class GuessNumber {
     public static void game(int numberOfPlayers, int min, int max) {
         int pcNumber = randBetween(min, max);
-        System.out.println(pcNumber);// Згаданное число, для тестов
+        //System.out.println(pcNumber);// Згаданное число, для тестов
+
+        aboutGame(numberOfPlayers, min, max);// Правила игры
 
         // Players name
         String players[] = new String[numberOfPlayers];
@@ -32,19 +34,24 @@ public class GuessNumber {
     // Input number
     public static int numberInput(String playerName) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print(playerName + " введите число: ");
+        System.out.print(playerName + ", введите число: ");
         int number = scanner.nextInt();
         return number;
+    }
+
+    // About game
+    public static void aboutGame(int numberOfPlayers, int min, int max) {
+        System.out.println("В игре участвуют " + numberOfPlayers + " игрока. " + "Нужно угадать число от " + min + " до " + max + ". ");
     }
 
     // сравнение чисел
     public static void myGameResult(int pcNumber, int myNumber, String name) {
         if (pcNumber < myNumber) {
-            System.out.println(name + " загаданное число меньше");
+            System.out.println(name + ", загаданное число меньше");
         } else if (pcNumber > myNumber) {
-            System.out.println(name + " загаданное число больше");
+            System.out.println(name + ", загаданное число больше");
         } else {
-            System.out.println(name + " угадал число!");
+            System.out.println(name + ", угадал число!");
         }
     }
 
