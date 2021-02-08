@@ -1,0 +1,5 @@
+cd e:\\StartJava\Lesson_2
+
+javac GuessNumber.java GuessNumberTest.java Player.java
+
+java GuessNumberTest
