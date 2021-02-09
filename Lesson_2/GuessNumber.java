@@ -1,6 +1,7 @@
 import java.util.*;
+
 public class GuessNumber {
-    public static void game(int numberOfPlayers, int min, int max) {
+    public static void goGame(int numberOfPlayers, int min, int max) {
         int pcNumber = randBetween(min, max);
         System.out.println(pcNumber);// Згаданное число, для тестов
         aboutGame(numberOfPlayers, min, max);// Правила игры
